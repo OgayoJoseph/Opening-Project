@@ -39,10 +39,28 @@ li {
   font-size: 20px;
 }
 
-footer p {
+/* footer p {
+  font-size: 16px;
+} */
+
+/* article header p {
+  font-style: italic;
+} not a good practise since the code from HTML is being copied to CSS therefore, cleaner code is by IDing the seletors   */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
   font-size: 16px;
 }
 
-article header p {
-  font-style: italic;
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-postlist {
+  list-style: none;
 }
