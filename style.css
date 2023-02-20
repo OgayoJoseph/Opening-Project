@@ -1,12 +1,19 @@
-h1,
+body {
+  color: #696969;
+  font-family: sans-serif;
+
+  border-top: 10px solid #1098ad;
+}
+
+/* h1,
 h2,
 h3,
 h4,
 p,
 li {
   font-family: sans-serif;
-  color: #696969;
-}
+   color: #696969;
+}  */
 
 h1,
 h2,
@@ -130,3 +137,31 @@ a:active {
 }
 
 /* Style follows the patterns above L-V-H-A */
+
+/* Resolving conflict */
+
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+} 
+
+Always write selectors as simple as possible and do not add too much nesting or too many ids, classes in your selectors */
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
