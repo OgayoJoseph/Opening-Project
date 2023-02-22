@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* Page sections */
 body {
   color: #696969;
   font-family: sans-serif;
@@ -48,6 +49,8 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+
+/* smaller elements */
 /* h1,
 h2,
 h3,
@@ -93,6 +96,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 ul,
 ol {
@@ -141,6 +145,7 @@ li {
 li {
   font-weight: bold;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 
 li:last-child {
@@ -183,6 +188,22 @@ a:active {
 .post-image {
   width: 100%;
   height: auto;
+}
+
+/* navigations */
+nav a:link {
+  /*background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block;
+*/
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
 
 /* Resolving conflict */
