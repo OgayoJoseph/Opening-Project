@@ -1,8 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.5;
 }
 /* give article class of product*/
+
+.container {
+  width: 825px;
+  margin: 50px auto;
+}
 
 /* PRODUCT */
 .product {
@@ -14,12 +24,12 @@ body {
   font-size: 22px;
   text-transform: uppercase;
   background-color: #f7f7f7;
+  padding: 15px;
 }
-
 /* PRODUCT INFORMATION */
 
 .money {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .shipping {
@@ -27,6 +37,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
+  margin-bottom: 20px;
 }
 
 .more-info:link,
@@ -44,9 +55,17 @@ body {
 .detail-title {
   text-transform: uppercase;
   font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 .detail-list {
   list-style: square;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.detail-list li {
+  margin-bottom: 10px;
 }
 
 /* BUTTON */
@@ -58,6 +77,9 @@ body {
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
 }
 
 .button:hover {
