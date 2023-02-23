@@ -36,6 +36,7 @@ body {
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 article {
@@ -204,6 +205,7 @@ nav a:link {
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
+  /* text-align: center;  text-align property added to the parent element */
 }
 
 nav a:link:last-child {
