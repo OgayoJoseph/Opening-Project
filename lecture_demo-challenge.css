@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -126,4 +127,22 @@ body {
   color: #000;
   background-color: #fff;
 }
-/* techers note; use classes on every single element */ ;
+/* techers note; use classes on every single element */
+
+/* FLOATS */
+
+.img {
+  float: left;
+}
+
+.purchase {
+  float: left;
+}
+
+.ship {
+  float: right;
+}
+
+.details {
+  float: right;
+}
