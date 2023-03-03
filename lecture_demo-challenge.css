@@ -15,16 +15,13 @@ body {
   margin: 50px auto;
 }
 
-.container-2 {
-  /* background-color: #0000ff; */
-  display: flex;
-  gap: 40px;
-}
-
 /* PRODUCT */
 .product {
   border: 4px solid black;
   position: relative;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
 }
 
 .product-title {
@@ -33,6 +30,7 @@ body {
   text-transform: uppercase;
   background-color: #cdcdcd;
   padding: 15px;
+  grid-column: 1 / -1;
 }
 /* PRODUCT INFORMATION */
 .product-info {
@@ -155,6 +153,7 @@ body {
   padding: 15px;
   width: 100%;
   border-top: 4px solid black;
+  grid-column: 1 / -1;
 }
 
 .button:hover {
@@ -162,5 +161,3 @@ body {
   background-color: #fff;
 }
 /* techers note; use classes on every single element */
-
-/* USING FLEXBOX */
